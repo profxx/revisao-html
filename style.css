@@ -103,3 +103,31 @@ a{
         color: #d90429;
     }
 }
+.conteudo-cadastro{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+}
+.conteudo-cadastro input{
+    font-size: 26px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #474c8c 1px solid;
+}
+.conteudo-cadastro h4{
+    font-size: 30px;
+    font-family: 'Nuetrina', sans-serif;
+}
+.conteudo-cadastro button{
+    font-size: 30px;
+    font-family: 'Nuetrina', sans-serif;
+    background-color: #2f325d;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+
+    &:hover{
+        background-color: #474c8c;
+    }
+}
